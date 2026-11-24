@@ -59,9 +59,23 @@ header{
     align-self: flex-end;
 }
 
-
 .bot-message{
     background: rgba(255, 255, 255, 0.9);
     color: #333;
     align-self: flex-start;
+}
+
+.input-area{
+    display: flex;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#user-input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.9);
+    outline: none;
+    border-radius: 8px;
 }
