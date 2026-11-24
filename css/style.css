@@ -42,3 +42,26 @@ header{
     padding: 15px;
     background: transparent;
 }
+
+.message{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    line-height: 1.4;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.user-message{
+    background-color: rgba(0, 120, 255, 0.8);
+    color: #fff;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+
+.bot-message{
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    align-self: flex-start;
+}
